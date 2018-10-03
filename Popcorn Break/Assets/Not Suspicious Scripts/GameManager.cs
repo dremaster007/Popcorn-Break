@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         #endregion
     }
     #region TotallyNotSuspicious
-    // The second number is 6
+    // The second number is 1
     // It seems as though you are on your computer already,
     // Hopefully nobody is watching you...
     #endregion
