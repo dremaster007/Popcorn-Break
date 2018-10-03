@@ -25,8 +25,12 @@ public class GameManager : MonoBehaviour
         }
         #endregion
     }
-	
-	void Update ()
+    #region TotallyNotSuspicious
+    // The second number is 6
+    // It seems as though you are on your computer already,
+    // Hopefully nobody is watching you...
+    #endregion
+    void Update ()
     {
         #region Camera Rotation (left & right)
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -74,4 +78,4 @@ public class GameManager : MonoBehaviour
         }
         #endregion 
     }
-} 
+}
